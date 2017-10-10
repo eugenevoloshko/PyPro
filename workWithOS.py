@@ -3,3 +3,10 @@ os.system("ping 8.8.8.8 > test.txt")
 
 print("test message")
 
+f = open("test.txt")
+
+a = f.readlines()
+
+print(a[3])
+
+
