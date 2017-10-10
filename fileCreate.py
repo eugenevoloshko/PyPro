@@ -1,2 +1,17 @@
 f = open('file.html', 'tw')
-f.write('html')
+#f.writelines("line \n   line2")
+#f.writelines('line2')
+
+
+f.write("<!DOCTYPE HTML>\n")
+f.write("<html lang=\"ru\">\n")
+f.write("<head>\n")
+f.write("    <meta charset=\"utf-8\">\n")
+f.write("    <title>Page Name</title>\n")
+f.write("</head>\n")
+f.write("<body>\n")
+f.write("    <header>\n")
+f.write("       The Header of The Page\n")
+f.write("    </header>\n")
+#f.write("</body>\n")
+#f.write("</html>\n")
