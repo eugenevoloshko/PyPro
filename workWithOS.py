@@ -9,4 +9,4 @@ a = f.readlines()
 
 print(a[3])
 
-
+os.system(r'C:\Windows\notepad.exe')
